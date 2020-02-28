@@ -1,0 +1,22 @@
+nitrogen --restore &
+tint2 &
+lxpolkit &
+nm-applet &
+sleep 5
+
+cd "/home/phil/.config/conky/wo-conky-system-lua"
+conky -c /home/phil/.config/conky/wo-conky-system-lua/WO-conky-system-lua-v3.conkyrc &
+
+#cd "/home/phil/.config/conky"
+
+#conky -c "/home/phil/.config/conky/AK-Wiu.conkyrc" &
+#conky -c "/home/phil/.config/conky/AUR-Allinone.conkyrc" &
+#conky -c "/home/phil/.config/conky/ET-Arcolinux-Fofo-LUA.conkyrc" &
+#conky -c "/home/phil/.config/conky/Arco-Elegant-8core.conkyrc" &
+#conky -c "/home/phil/.config/conky/Arco-Eleganto-8core.conkyrc" &
+#conky -c "/home/phil/.config/conky/Arco-Left-or-Right.conkyrc" &
+#conky -c "/home/phil/.config/conky/AUR-Misty-LUA.conkyrc" &
+#conky -c "/home/phil/.config/conky/AUR-Nemesis.conkyrc" &
+#conky -c "/home/phil/.config/conky/Bunsen.conkyrc" &
+cd "/home/phil"
+
