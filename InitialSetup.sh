@@ -11,7 +11,7 @@ sudo pacman -S openbox obconf man-db --noconfirm
 sudo pacman -S moka-icon-theme --noconfirm
 sudo pacman -S w3m unzip --noconfirm
 sudo pacman -S pavucontrol pulseaudio pulseaudio-equalizer --noconfirm
-sudo pacman -S gmrun --noconfirm
+sudo pacman -S gmrun arandr gsimplecal --noconfirm
 sudo pacman -S neofetch rofi gtk2-perl lsb-release --noconfirm
 sudo pacman -S adapta-gtk-theme gvfs ntfs-3g --noconfirm
 sudo pacman -S lxterminal xterm xfce4-terminal --noconfirm
