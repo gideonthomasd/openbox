@@ -21,3 +21,5 @@ cp cfofo.sh ~/
 cp clua.sh ~/
 cp cnemesis.sh ~/
 cp cnormal.sh ~/
+
+cp -r myicon ~/myicon
