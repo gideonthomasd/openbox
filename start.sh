@@ -23,3 +23,10 @@ cp cnemesis.sh ~/
 cp cnormal.sh ~/
 
 cp -r myicon ~/myicon
+
+[ -d $HOME"/.config" ] || mkdir -p $HOME"/.config"
+[ -d $HOME"/.config/conky" ] || mkdir -p $HOME"/.config/conky"
+
+cd conky
+cp -r * ~/.config/conky
+cd ~/openbox
