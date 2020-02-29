@@ -14,3 +14,10 @@ cd tint2
 sudo cp * /usr/share/tint2
 cd ~/openbox
 
+cp call.sh ~/
+cp cbunsen.sh ~/
+cp celegant.sh ~/
+cp cfofo.sh ~/
+cp clua.sh ~/
+cp cnemesis.sh ~/
+cp cnormal.sh ~/
