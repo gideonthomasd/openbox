@@ -1,3 +1,4 @@
+cd ~/openbox
 chmod +x InitialSetup.sh
 chmod +x getyay.sh
 chmod +x call.sh
@@ -30,3 +31,10 @@ cp -r myicon ~/myicon
 cd conky
 cp -r * ~/.config/conky
 cd ~/openbox
+
+[ -d $HOME"/.config/openbox" ] || mkdir -p $HOME"/.config/openbox"
+cp autostart ~/.config/openbox/autostart
+cp menu.xml ~/.config/openbox/menu.xml
+cp rc.xml ~/.config/openbox/rc.xml
+
+
