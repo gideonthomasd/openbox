@@ -3,6 +3,7 @@ tint2 &
 lxpolkit &
 nm-applet &
 sleep 5
+volumeicon &
 
 cd "~/.config/conky/wo-conky-system-lua"
 conky -c ~/.config/conky/wo-conky-system-lua/WO-conky-system-lua-v3.conkyrc &
