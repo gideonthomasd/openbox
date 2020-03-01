@@ -8,6 +8,9 @@ chmod +x cfofo.sh
 chmod +x clua.sh
 chmod +x cnemesis.sh
 chmod +x cnormal.sh
+chmod +x bluetooth.sh
+chmod +x printer.sh
+
 ./InitialSetup.sh
 ./getyay.sh
 
