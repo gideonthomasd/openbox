@@ -37,4 +37,7 @@ cp autostart ~/.config/openbox/autostart
 cp menu.xml ~/.config/openbox/menu.xml
 cp rc.xml ~/.config/openbox/rc.xml
 
-
+cp Xresources ~/.Xresources
+cp bashrc ~/.bashrc
+cp tint2rc ~/.config/tint2
+cp schema.pl ~/.config/obmenu-generator/schema.pl
