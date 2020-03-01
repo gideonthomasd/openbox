@@ -8,7 +8,7 @@ sudo pacman -S menumaker lxsession lxappearance arc-gtk-theme xarchiver xterm ba
 sudo pacman -S pcmanfm thunar networkmanager network-manager-applet tint2 --noconfirm
 sudo pacman -S xorg-server xorg xorg-xinit --noconfirm
 sudo pacman -S openbox obconf man-db --noconfirm
-sudo pacman -S moka-icon-theme --noconfirm
+sudo pacman -S moka-icon-theme neofetch --noconfirm
 sudo pacman -S w3m unzip xdg-utils wget gmrun deepin-gtk-theme p7zip --noconfirm
 sudo pacman -S pavucontrol pulseaudio pulseaudio-equalizer volumeicon --noconfirm
 sudo pacman -S gmrun arandr gsimplecal --noconfirm
