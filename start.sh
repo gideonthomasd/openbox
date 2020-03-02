@@ -1,6 +1,12 @@
 cd ~/openbox
 chmod +x InitialSetup.sh
 chmod +x getyay.sh
+
+chmod +x bluetooth.sh
+chmod +x printer.sh
+
+cd sh_files
+
 chmod +x call.sh
 chmod +x cbunsen.sh
 chmod +x celegant.sh
@@ -8,8 +14,16 @@ chmod +x cfofo.sh
 chmod +x clua.sh
 chmod +x cnemesis.sh
 chmod +x cnormal.sh
-chmod +x bluetooth.sh
-chmod +x printer.sh
+chmod +x caur-arco.sh
+chmod +x cblue.sh
+chmod +x cdef.sh
+chmod +x concise.sh
+chmod +x c-ored.sh
+chmod +x cred.sh
+chmod +x ctop.sh
+chmod +x cwhite.sh
+
+cd ~/openbox
 
 ./InitialSetup.sh
 ./getyay.sh
@@ -18,13 +32,9 @@ cd tint2
 sudo cp * /usr/share/tint2
 cd ~/openbox
 
-cp call.sh ~/
-cp cbunsen.sh ~/
-cp celegant.sh ~/
-cp cfofo.sh ~/
-cp clua.sh ~/
-cp cnemesis.sh ~/
-cp cnormal.sh ~/
+cd sh_files
+cp * ~/
+cd ~/openbox
 
 cp -r myicon ~/myicon
 
