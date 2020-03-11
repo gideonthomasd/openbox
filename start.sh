@@ -58,5 +58,7 @@ cp rc.xml ~/.config/openbox/rc.xml
 
 cp Xresources ~/.Xresources
 cp bashrc ~/.bashrc
-cp tint2rc ~/.config/tint2
+[ -d $HOME"/.config/tint2" ] || mkdir -p $HOME"/.config/tint2"
+cp tint2rc ~/.config/tint2/tint2rc
+[ -d $HOME"/.config/obmenu-generator" ] || mkdir -p $HOME"/.config/obmenu-generator"
 cp schema.pl ~/.config/obmenu-generator/schema.pl
