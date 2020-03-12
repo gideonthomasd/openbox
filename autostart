@@ -5,7 +5,7 @@ tint2 &
 lxpolkit &
 nm-applet &
 # volumeicon &
-wmckgmail &
+
 xrdb -merge ~/.Xresources &
 sleep 5
 
@@ -24,3 +24,4 @@ conky -c /home/phil/.config/conky/wo-conky-system-lua/WO-conky-system-lua-v3.con
 #conky -c "/home/phil/.config/conky/AUR-Nemesis.conkyrc" &
 #conky -c "/home/phil/.config/conky/Bunsen.conkyrc" &
 cd "/home/phil"
+wmckgmail &
