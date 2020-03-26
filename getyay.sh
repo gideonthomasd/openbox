@@ -10,5 +10,6 @@ yay -S --noconfirm pamac-aur
 #yay -S ttf-zekton-rg
 yay -S --noconfirm obmenu-generator
 yay -S --noconfirm ttf-mononoki
-yay -S --noconfirm conky-lua-archers
+yay -S --noconfirm mintstick-git
+#yay -S --noconfirm conky-lua-archers
 #yay -S ttf-spacemono
