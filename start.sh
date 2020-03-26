@@ -4,6 +4,7 @@ chmod +x getyay.sh
 
 chmod +x bluetooth.sh
 chmod +x printer.sh
+chmod +x monitor.sh
 
 cd sh_files
 
