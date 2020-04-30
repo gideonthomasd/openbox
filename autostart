@@ -2,6 +2,7 @@ xrandr --output Virtual-1 --mode 1440x900
 setxkbmap gb
 nitrogen --restore &
 tint2 &
+tint2 -c ~/.config/tint2/blocks.tint2rc &
 lxpolkit &
 nm-applet &
 # volumeicon &
@@ -9,8 +10,8 @@ nm-applet &
 xrdb -merge ~/.Xresources &
 sleep 5
 
-cd "/home/phil/.config/conky/wo-conky-system-lua"
-conky -c /home/phil/.config/conky/wo-conky-system-lua/WO-conky-system-lua-v3.conkyrc &
+#cd "/home/phil/.config/conky/wo-conky-system-lua"
+#conky -c /home/phil/.config/conky/wo-conky-system-lua/WO-conky-system-lua-v3.conkyrc &
 
 #cd "/home/phil/.config/conky"
 
@@ -23,5 +24,7 @@ conky -c /home/phil/.config/conky/wo-conky-system-lua/WO-conky-system-lua-v3.con
 #conky -c "/home/phil/.config/conky/AUR-Misty-LUA.conkyrc" &
 #conky -c "/home/phil/.config/conky/AUR-Nemesis.conkyrc" &
 #conky -c "/home/phil/.config/conky/Bunsen.conkyrc" &
-cd "/home/phil"
+#cd "/home/phil"
+
+#pcmanfm --desktop &
 wmckgmail &
