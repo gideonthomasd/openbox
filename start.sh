@@ -38,5 +38,7 @@ cp Xresources ~/.Xresources
 cp bashrc ~/.bashrc
 [ -d $HOME"/.config/tint2" ] || mkdir -p $HOME"/.config/tint2"
 cp tint2rc ~/.config/tint2/tint2rc
+cp blocks.tint2rc ~/.config/tint2/blocks.tint2rc
+cp mytint2rc ~/.config/tint2/mytint2rc
 [ -d $HOME"/.config/obmenu-generator" ] || mkdir -p $HOME"/.config/obmenu-generator"
 cp schema.pl ~/.config/obmenu-generator/schema.pl
