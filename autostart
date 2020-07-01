@@ -1,6 +1,7 @@
 xrandr --output Virtual-1 --mode 1440x900
 setxkbmap gb
 nitrogen --restore &
+# ~/.config/polybar/launch.sh &
 tint2 &
 tint2 -c ~/.config/tint2/blocks.tint2rc &
 lxpolkit &
