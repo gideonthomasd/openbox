@@ -11,5 +11,6 @@ yay -S --noconfirm pamac-aur
 yay -S --noconfirm obmenu-generator
 yay -S --noconfirm ttf-mononoki
 yay -S --noconfirm mintstick-git
+yay -S --noconfirm polybar
 #yay -S --noconfirm conky-lua-archers
 #yay -S ttf-spacemono
