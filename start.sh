@@ -42,3 +42,7 @@ cp blocks.tint2rc ~/.config/tint2/blocks.tint2rc
 cp mytint2rc ~/.config/tint2/mytint2rc
 [ -d $HOME"/.config/obmenu-generator" ] || mkdir -p $HOME"/.config/obmenu-generator"
 cp schema.pl ~/.config/obmenu-generator/schema.pl
+[ -d $HOME"/.config/polybar" ] || mkdir -p $HOME"/.config/polybar"
+cd polybar
+cp -r * ~/.config/polybar
+cd ~/openbox
