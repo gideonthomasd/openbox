@@ -4,7 +4,7 @@ set -e
 
 sudo pacman -Syyu --noconfirm
 sudo pacman -S menumaker lxsession lxappearance arc-gtk-theme xarchiver xterm base-devel nitrogen firefox git geany --noconfirm
-#sudo pacman -S lightdm lightdm-gtk-greeter lightdm-gtk-greeter-settings pcmanfm
+sudo pacman -S lightdm lightdm-gtk-greeter lightdm-gtk-greeter-settings pcmanfm
 sudo pacman -S pcmanfm thunar networkmanager network-manager-applet tint2 --noconfirm
 sudo pacman -S xorg-server xorg xorg-xinit --noconfirm
 sudo pacman -S openbox obconf man-db --noconfirm
@@ -20,4 +20,4 @@ sudo pacman -S pacman-contrib termite awesome-terminal-fonts ttf-font-awesome no
 #sudo pacman -S virtualbox-guest-utils
 sudo systemctl start NetworkManager
 sudo systemctl enable NetworkManager
-#sudo systemctl enable lightdm
+sudo systemctl enable lightdm
