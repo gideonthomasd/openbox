@@ -1,6 +1,6 @@
 # openbox
 
-Put all this inside openbox in home dir.
+Put all this INSIDE OPENBOX in home dir.
 
 Download iconsall.tar from my googgle drive, and theme.tar from here.
 
