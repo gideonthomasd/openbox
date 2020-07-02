@@ -120,11 +120,11 @@ our $SCHEMA = [
     {sep => undef},
 
     ## The xscreensaver lock command
-    {item => ['xscreensaver-command -lock', 'Lock', 'system-lock-screen']},
+    #{item => ['xscreensaver-command -lock', 'Lock', 'system-lock-screen']},
 
     ## This option uses the default Openbox's "Exit" action
-    {exit => ['Exit', 'application-exit']},
+    {exit => ['Exit to lightdm...', 'application-exit']},
 
     ## This uses the 'oblogout' menu
-    # {item => ['oblogout', 'Exit', 'application-exit']},
+    {item => ['arcolinux-logout', 'Exit', 'application-exit']},
 ]
