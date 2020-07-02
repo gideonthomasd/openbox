@@ -2,6 +2,8 @@ cd ~/openbox
 chmod +x InitialSetup.sh
 chmod +x getyay.sh
 
+chmod +x getEmail.sh
+
 chmod +x bluetooth.sh
 chmod +x printer.sh
 chmod +x monitor.sh
