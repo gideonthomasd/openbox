@@ -34,7 +34,7 @@ cd ~/openbox
 
 [ -d $HOME"/.conky" ] || mkdir -p $HOME"/.conky"
 
-cd conkymanager
+cd conkymanager2
 cp -r * ~/.conky
 cd ~/openbox
 
