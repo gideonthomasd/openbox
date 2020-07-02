@@ -1,0 +1,4 @@
+uname phil
+pass 0end
+pollinterval = 600
+browsercmd1 firefox www.gmail.com
