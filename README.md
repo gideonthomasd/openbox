@@ -4,6 +4,8 @@ Put all this INSIDE OPENBOX in home dir.
 
 Download iconsall.tar from my googgle drive, and theme.tar from here.
 
+BEFORE: Do you need yay? 
+
 Do chmod +x start.sh
 
 ./start.sh
