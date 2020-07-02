@@ -6,6 +6,15 @@ chmod +x bluetooth.sh
 chmod +x printer.sh
 chmod +x monitor.sh
 
+cd ~/openbox/polybar
+chmod +x launch.sh
+cd ~/openbox/polybar/scripts
+chmod +x check-all-updates.sh
+chmod +x lupdates
+chmod +x windows
+
+cd ~/openbox
+
 ./InitialSetup.sh
 ./getyay.sh
 
