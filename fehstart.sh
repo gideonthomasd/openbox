@@ -2,7 +2,7 @@
 
 while true
 do
-    feh --randomize --bg-fill /home/phil/backgrounds/dt
+    feh --randomize --bg-fill /home/phil/wallpaper
     sleep 200
 done
 
