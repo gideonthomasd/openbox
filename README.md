@@ -4,7 +4,7 @@ Put all this INSIDE OPENBOX in home dir.
 
 Download iconsall.tar from my googgle drive, and theme.tar from here.
 
-BEFORE: Do you need yay? 
+BEFORE: Do you need yay? Look at getyay.sh
 
 Do chmod +x start.sh
 
