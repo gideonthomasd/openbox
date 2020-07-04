@@ -57,3 +57,5 @@ cp schema.pl ~/.config/obmenu-generator/schema.pl
 cd polybar
 cp -r * ~/.config/polybar
 cd ~/openbox
+[ -d $HOME"/.themes" ] || mkdir -p $HOME"/.themes"
+cp -r PacBang ~/.themes
