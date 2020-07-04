@@ -59,3 +59,7 @@ cp -r * ~/.config/polybar
 cd ~/openbox
 [ -d $HOME"/.themes" ] || mkdir -p $HOME"/.themes"
 cp -r PacBang ~/.themes
+[ -d $HOME"/.config/jgmenu" ] || mkdir -p $HOME"/.config/jgmenu"
+cd jgmenu
+cp * ~/.config/jgmenu
+cd ~/openbox
