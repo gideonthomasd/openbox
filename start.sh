@@ -51,6 +51,8 @@ cp bashrc ~/.bashrc
 cp tint2rc ~/.config/tint2/tint2rc
 cp blocks.tint2rc ~/.config/tint2/blocks.tint2rc
 cp mytint2rc ~/.config/tint2/mytint2rc
+cp arcolinux-arc-crimson.tint2rc ~/.config/tint2/arcolinux-arc-crimson.tint2rc
+
 [ -d $HOME"/.config/obmenu-generator" ] || mkdir -p $HOME"/.config/obmenu-generator"
 cp schema.pl ~/.config/obmenu-generator/schema.pl
 [ -d $HOME"/.config/polybar" ] || mkdir -p $HOME"/.config/polybar"
