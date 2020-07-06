@@ -4,7 +4,7 @@ set -e
 
 sudo pacman -Syyu --noconfirm
 sudo pacman -S menumaker lxsession lxappearance arc-gtk-theme xarchiver xterm base-devel nitrogen firefox git xed geany --noconfirm
-sudo pacman -S lightdm  --noconfirm
+sudo pacman -S lightdm  arcolinux-logout-git --noconfirm
 sudo pacman -S pcmanfm thunar networkmanager network-manager-applet tint2 --noconfirm
 sudo pacman -S xorg-server xorg xorg-xinit lxtask --noconfirm
 sudo pacman -S openbox obconf man-db --noconfirm
