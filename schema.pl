@@ -28,7 +28,7 @@ require "$ENV{HOME}/.config/obmenu-generator/config.pl";
 my $editor = $CONFIG->{editor};
 
 our $SCHEMA = [
-
+    {sep => 'Archlinux'},
     #          COMMAND                 LABEL              ICON
     {item => ['pcmanfm',         'File Manager', 'system-file-manager']},
     {item => ['xfce4-terminal',   'Terminal',  'utilities-terminal']},
